@@ -1,0 +1,36 @@
+.app-main-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__main-section-wrapper{
+    padding: 80px;
+}
+
+.app__main-section-title{
+    font-weight: normal;
+    font-size: 60px;
+}
+
+.app__main-section-title span{
+    font-weight: bold;
+}
+
+.app__main-section-subtitle{
+    font-size: 25px;
+    font-weight: normal;
+    color: #455a64;
+}
+
+.app__main-section-button{
+    display: block;
+    margin-top: 50px;
+    background-color: #f97270;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+}

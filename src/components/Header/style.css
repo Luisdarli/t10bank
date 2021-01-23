@@ -1,0 +1,36 @@
+.app__header{
+    background-color: #f97270;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 128px;
+    width: 100%;
+    border: 1px solid #707070;
+}
+
+.app__header-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 138px;
+}
+
+.app__header-list{
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 130px;
+}
+
+.app__header-list ul{
+    list-style: none;
+}
+
+.app__header-list li{
+    display: inline-block;
+    margin-left: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 15px;
+}
