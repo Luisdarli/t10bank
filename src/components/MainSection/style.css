@@ -3,6 +3,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin: 150px 0;
 }
 
 .app__main-section-wrapper{
@@ -33,4 +34,5 @@
     padding: 15px;
     width: 150px;
     text-align: center;
+    cursor: pointer;
 }

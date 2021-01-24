@@ -6,7 +6,7 @@ import { HeaderList } from './HeaderList'
 export const Header = () => {
     return (
         <header className="app__header">
-            <div className="app__header-img">
+            <div className="app__header-logo">
                 <img src={logo} alt="Logotipo T10 Bank"></img>
             </div>
 

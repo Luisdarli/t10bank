@@ -1,7 +1,9 @@
 import './App.css';
-import { Header } from '../Header'
-import { MainSection } from '../MainSection'
-import { AboutUs } from '../AboutUs'
+import { Header } from '../Header';
+import { MainSection } from '../MainSection';
+import { AboutUs } from '../AboutUs';
+import { Services } from '../Services'
+
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
       <Header />
       <MainSection />
       <AboutUs />
+      <Services />
     </div>
   );
 }

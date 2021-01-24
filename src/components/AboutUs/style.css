@@ -7,7 +7,6 @@
 
 .app__aboutus-title{
     display: block;
-    overflow: visible;
 }
 
 .app__aboutus-title::before{
@@ -42,10 +41,15 @@
     margin: 50px;
 }
 
+.app__aboutus-mainImage{
+    position: relative;
+    z-index: 2;
+}
+
 .app__aboutus-backgroundImage{
     width: 200px;
     height: auto;
-    z-index: -1;
+    z-index: 1;
     position: relative;
     left: 235px;
     top: -475px;
