@@ -1,0 +1,127 @@
+.app-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../assets/5.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.app__contact-title{
+    color: #F97270;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+.app__contact-title::after{
+    content: '';
+    display: block;
+    background-color: #f97270;
+    opacity: 0.1;
+    border-radius: 10px;
+    position: relative;
+    left: 0px;
+    top: -32px;
+    width: 120px;
+    height: 15px;
+}
+
+.app__contact-subtitle{
+    color: #151D41;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+
+.app__contact-subtitle::after{
+    content: '';
+    display: block;
+    background-color: #f97270;
+    opacity: 0.1;
+    border-radius: 10px;
+    position: relative;
+    top: -65px;
+    width: 475px;
+    height: 15px;
+}
+
+.app__contact-form{
+    box-sizing: border-box;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+::placeholder{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #151D41;
+    font-size: 13px;
+}
+
+.app__contact__form-input{
+    padding: 20px 8px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 25px 0;
+    border: 1px solid #151D41;
+    border-radius: 5px;
+}
+
+.app_contact__form-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.app_contact__form-wrapper input{
+    width: 49%;
+}
+
+.app__contact__form-textarea{
+    padding: 20px 8px;
+    border: 1px solid #151D41;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.app__contact__form-btn{
+    margin: 50px;
+    width: 210px;
+    height: 60px;
+    background-color: #F97270;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Josefin Sans', sans-serif;
+    border: none;
+    border-radius: 8px;
+}
+
+.app__contact__form-image{
+    position: relative;
+    top: -365px;
+    left: -640px;
+    max-height: 30px;
+}
+
+@media only screen and (max-width: 970px){
+    .app__contact-form{
+        max-width: 85%;
+    }
+}
+
+@media only screen and (max-width: 510px){
+    .app__contact-subtitle{
+        max-width: 300px;
+    }
+
+    .app__contact-subtitle::after{
+        width: 100px;
+    }
+}
+
+

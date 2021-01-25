@@ -1,0 +1,50 @@
+.app__works-cards{
+    position: relative;
+}
+
+.app__works-cards-text{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    display: none;
+    transition: .5s ease;
+    background-color: #F97270;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.app__works-cards:hover .app__works-cards-text{
+    opacity: 0.8;
+    display: flex;
+}
+
+.app__works-cards h1{
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: center;
+}
+
+.app__works-cards-button{
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__works-cards-button a{
+    font-size: 50px;
+    font-weight: normal;
+    color: #ffffff;
+}
