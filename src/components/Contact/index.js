@@ -12,7 +12,7 @@ export const Contact = () => {
             <div className="app__contact-subtitle">
                 <h3>Envie sua mensagem</h3>
             </div>
-
+            
             <form className="app__contact-form">
                 <input className="app__contact__form-input" type="text" name="name"  placeholder="Nome"></input>
                 <div className="app_contact__form-wrapper">
@@ -22,7 +22,9 @@ export const Contact = () => {
                 <textarea className="app__contact__form-textarea" rows="10" cols="60" placeholder="Mensagem"></textarea>
                 <button type="submit" className="app__contact__form-btn">Enviar</button>
             </form>
-            <img className="app__contact__form-image" src={backgroundImage} alt="Imagem de fundo" />
+            <div className="app__contact__form-image">
+                <img  src={backgroundImage} alt="Imagem de fundo" />
+            </div>
         </section>
     )
 }

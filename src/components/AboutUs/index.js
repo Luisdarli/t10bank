@@ -13,7 +13,9 @@ export const AboutUs = () =>{
             <div className="app__aboutus-wrapper">
                 <div className="app__aboutus__wrapper-tile">
                     <img src={imagem} alt="Imagem sobre nós" className="app__aboutus-mainImage"></img>
-                    <img src={backgroundImage} alt="Imagem de fundo" className="app__aboutus-backgroundImage"></img>
+                    <div className="app__aboutus__wrapper-background">
+                        <img src={backgroundImage} alt="Imagem de fundo" className="app__aboutus-backgroundImage"></img>
+                    </div>
                 </div>
 
                 <div className="app__aboutus__wrapper-tile">

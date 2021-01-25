@@ -15,7 +15,9 @@ export const Services = () => {
                 <h1>Proporcionamos uma melhor experiência</h1>
             </div>
             <div className="app__services__design-wrapper">
-                <img src={backgroundImage} alt="Imagem de fundo" className="app__services__design-img"></img>
+                <div className="app__services__design-image">
+                    <img src={backgroundImage} alt="Imagem de fundo" className="app__services__design-img"></img>
+                </div>
                 <div className="app__services-design">
                     <h1 className="app__services__design-title">85%</h1>
                     <div className="app__services__design-bar">

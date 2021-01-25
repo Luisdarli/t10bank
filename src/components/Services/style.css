@@ -53,6 +53,7 @@
 }
 
 .app__services-design{
+    width: 450px;
     display: flex;
     flex-direction: column;
     box-shadow: 10px 5px 15px rgb(0, 0, 0, 0.1);
@@ -73,7 +74,9 @@
     color: #ffffff;
 }
 
-.app__services__design-img{
+.app__services__design-image{
+    max-height: 40px;
+    overflow: unset;
     position: relative;
     z-index: 1;
     top: 150px;
@@ -87,7 +90,7 @@
 }
 
 .app__services__design-bar{
-    width: 450px;
+    width: 100%;
     background-color: #F9727033;
     height: 5px;
 }
@@ -177,3 +180,46 @@
     margin-left: 8px;
 }
 
+@media only screen and (max-width: 1200px){
+   .app__services__design-wrapper{
+        flex-direction: column;
+   }
+
+   .app__services__design-image{
+       position: unset;
+   }
+   .app__services-design{
+       position: unset;
+       margin-bottom: 50px;
+   }
+
+   .app__services-designDetails{
+       position: unset;
+   }
+
+}
+
+@media only screen and (max-width: 680px){
+    .app__services-subtitle::before{
+        width: 100px;
+        top: 90px;
+    }
+    .app__services-subtitle h1{
+        text-align: center;
+        font-size: 30px;
+        display: flex;
+        max-width: 300px;
+    }
+
+    .app__services-design{
+        max-width: 300px;
+    }
+
+    .app__services-designDetails{
+        max-width: 300px;
+    }
+
+    .app__services__designDetails-text{
+        max-width: 290px;
+    }
+}

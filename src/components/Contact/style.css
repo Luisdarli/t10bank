@@ -105,6 +105,23 @@
     position: relative;
     top: -365px;
     left: -640px;
+    max-height: 30px;
+}
+
+@media only screen and (max-width: 970px){
+    .app__contact-form{
+        max-width: 85%;
+    }
+}
+
+@media only screen and (max-width: 510px){
+    .app__contact-subtitle{
+        max-width: 300px;
+    }
+
+    .app__contact-subtitle::after{
+        width: 100px;
+    }
 }
 
 

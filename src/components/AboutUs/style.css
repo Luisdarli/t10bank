@@ -34,6 +34,7 @@
     display: flex;
     flex-direction: row;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 
 .app__aboutus__wrapper-tile{
@@ -46,6 +47,10 @@
     z-index: 2;
 }
 
+
+.app__aboutus__wrapper-background{
+    max-height: 5px;
+}
 .app__aboutus-backgroundImage{
     width: 200px;
     height: auto;
@@ -82,4 +87,19 @@
     color: #ffffff;
     cursor: pointer;
     margin-top: 45px;
+}
+
+@media only screen and (max-width: 940px){
+    .app__aboutus-wrapper{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .app__aboutus-mainImage{
+        max-width: 300px;
+        height: auto;
+    }
 }

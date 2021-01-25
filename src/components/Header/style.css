@@ -25,6 +25,15 @@
     margin-right: 130px;
 }
 
+.app__header__list-button{
+    display: none;
+}
+
+.app__header__list__button-style{
+    background-color: #151D41 !important;
+    border: none !important;
+}
+
 .app__header-list ul{
     list-style: none;
 }
@@ -36,4 +45,24 @@
     font-weight: 700;
     font-size: 15px;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 920px){
+    .app__header-list{
+        margin: 15px;
+    }
+
+    .app__header-logo{
+        margin: 15px;
+    }
+}
+
+@media only screen and (max-width: 730px){
+    .app__header__list-button{
+        display: block;
+    }
+
+    .app__header-list ul{
+        display: none;
+    }
 }

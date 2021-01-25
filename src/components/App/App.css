@@ -1,8 +1,14 @@
 .App{
     margin: 30px;
-    width: 1280px;
+    max-width: 1280px;
     box-sizing: border-box;
     background-color: #ffffff;
     border: 1px solid rgb(180, 180, 180);
     overflow: hidden;
+}
+
+@media only screen and (max-width: 1300px){
+    .App{
+        margin: 0;
+    }
 }
