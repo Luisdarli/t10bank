@@ -36,10 +36,9 @@ export const Services = () => {
                         <div></div>
                     </div>
                     <p className="app__services__designDetails-text">Lorem ipsum dolor sit amet,Stet clita kasd lorem ipsum dolor sit amet. sed diam eirmod tempor dolore.</p>
-                    <span className="app__services__designDetails-button">Saiba mais<span className="app__services__designDetails__button-image"><img src={arrow} alt="flexa do botão"></img></span></span>
+                    <a href="#" className="app__services__designDetails-button">Saiba mais<span className="app__services__designDetails__button-image"><img src={arrow} alt="flexa do botão"></img></span></a>
                 </div>
             </div>
-
         </section>
     );
 }

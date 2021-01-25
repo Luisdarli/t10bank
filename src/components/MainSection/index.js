@@ -8,7 +8,7 @@ export const MainSection = () => {
             <div className="app__main-section-wrapper">
                 <h1 className="app__main-section-title">Inovação, Design e <span>Experiência</span></h1>
                 <h4 className="app__main-section-subtitle">Sempre a frente em soluções digitais</h4>
-                <span className="app__main-section-button">Saiba mais</span>
+                <a href="#" className="app__main-section-button">Saiba mais</a>
             </div>
 
             <div className="app__main-section-wrapper">

@@ -19,7 +19,7 @@ export const AboutUs = () =>{
                 <div className="app__aboutus__wrapper-tile">
                     <h1 className="app__aboutus__wrapper-title">Qual seu próximo projeto?</h1>
                     <p className="app__aboutus__wrapper-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet volutpat consequat mauris nunc congue nisi. Lorem ipsum dolor sit amet. Ut diam quam nulla porttitor massa id neque.</p>
-                    <span className="app__aboutus__wrapper-button">Download CV</span>
+                    <a href="#" className="app__aboutus__wrapper-button">Download CV</a>
                 </div>
             </div>
 
